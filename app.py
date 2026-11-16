@@ -57,7 +57,7 @@ def render_report(report: DeliveryReport, generated_at: float) -> None:
     print(f"Загальна виручка:     {report['revenue']:.2f} грн")
 
 
-def main() -> None:
+def run() -> None:
     parcels = load_parcels(DATA_FILE)
 
     # Політики (усі параметри задаються тут, а не глобально в ядрі)
@@ -82,4 +82,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    run()

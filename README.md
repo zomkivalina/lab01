@@ -24,6 +24,7 @@
 lab01/
 ├── README.md               # опис і команди запуску
 ├── core.py                 # чисте ядро (без I/O, глобалів і мутацій)
+├── main.py             # точка входу (python main.py)
 ├── app.py                  # оболонка I/O: читання JSON, час, print
 ├── starter_imperative.py   # вихідний імперативний варіант (для порівняння)
 ├── data/parcels.json       # вхідні дані
@@ -50,7 +51,7 @@ python -m venv .venv
 .venv\Scripts\activate        # Windows  (Linux/macOS: source .venv/bin/activate)
 pip install -r requirements.txt
 
-python app.py                 # запуск програми
+python main.py                 # запуск програми
 pytest -v                     # тести
 mypy core.py app.py tests/    # перевірка типів
 black --check .               # форматування
