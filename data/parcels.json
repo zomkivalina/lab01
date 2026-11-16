@@ -1,0 +1,10 @@
+[
+  {"id": 101, "weight": 2.5, "distance": 120, "delivery_type": "standard", "paid": true},
+  {"id": 102, "weight": 0.8, "distance": 15, "delivery_type": "express", "paid": true},
+  {"id": 103, "weight": 12.0, "distance": 540, "delivery_type": "economy", "paid": false},
+  {"id": 104, "weight": 24.0, "distance": 310, "delivery_type": "standard", "paid": true},
+  {"id": 105, "weight": 5.0, "distance": 1450, "delivery_type": "express", "paid": true},
+  {"id": 106, "weight": 1.2, "distance": 470, "delivery_type": "economy", "paid": true},
+  {"id": 107, "weight": 38.0, "distance": 60, "delivery_type": "standard", "paid": true},
+  {"id": 108, "weight": 7.5, "distance": 230, "delivery_type": "express", "paid": true}
+]
